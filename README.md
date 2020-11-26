@@ -14,3 +14,9 @@ This stage is auto-graded. The grader will check that:
 - the first number is equal to the second one.
 
 Note that you do not need to enter anything into the program, you should print a line prepared in advance. A single String is expected to be printed.
+### Stage 2/6:
+#### Description 
+Implement a program that calculates the last digit of the given number converted to base 8.
+
+This stage is auto-graded. The grader will input a number in base 10, and then check that your program output matches the correct answer.
+
