@@ -5,14 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        int radix = scanner.nextInt();
-        if (radix == 2) {
-            System.out.println("0b" + Integer.toBinaryString(number));
-        } else if (radix == 8) {
-            System.out.println("0" + Integer.toOctalString(number));
-        } else if (radix == 16) {
-            System.out.println("0x" + Integer.toHexString(number));
-        }
+        int sourceRadix = scanner.nextInt();
+        String sourceNumber = scanner.next();
+        int targetRadix = scanner.nextInt();
+        Converter converter = new Converter();
+        String targetNumber = converter.convert(sourceNumber, sourceRadix, targetRadix);
+        System.out.println(targetNumber);
     }
 }

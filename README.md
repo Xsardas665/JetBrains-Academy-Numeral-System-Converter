@@ -32,3 +32,14 @@ To get a string with the answer, use the Long.toString(sourceNumber, destination
 
 This stage is auto-graded. The grader will input two lines (a number and a radix) and check that your output is the correct number representation in the given radix. Don't forget about the prefix!
 
+### Stage 4/6:
+#### Description
+In this stage, you should add support for reading the source number in the given base and converting it to another given base.
+
+### Stage 5/6:
+#### Description
+Fractional numbers can also be converted from one base to another. To convert a fractional number to another base, you should use the algorithm described below.
+
+
+
+
