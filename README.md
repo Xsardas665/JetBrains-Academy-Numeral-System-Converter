@@ -20,3 +20,15 @@ Implement a program that calculates the last digit of the given number converted
 
 This stage is auto-graded. The grader will input a number in base 10, and then check that your program output matches the correct answer.
 
+### Stage 3/6:
+#### Description
+Now let's implement a simple converter. It will convert the given decimal number to the given radix. You should support three radices with prefixes:
+
+- binary (0b);
+- octal (0);
+- hexadecimal (0x).
+
+To get a string with the answer, use the Long.toString(sourceNumber, destinationRadix) expression. Note that the expected output is a String, because Java implicitly converts 0/0b/0x concatenated numbers to their decimal representation.
+
+This stage is auto-graded. The grader will input two lines (a number and a radix) and check that your output is the correct number representation in the given radix. Don't forget about the prefix!
+
